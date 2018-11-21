@@ -14,9 +14,8 @@ Summary: Functions for the Skellam distribution, including: density (pmf), cdf, 
 Current build status
 ====================
 
-[![Linux](https://img.shields.io/circleci/project/github/conda-forge/r-skellam-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/r-skellam-feedstock)
-[![OSX](https://img.shields.io/travis/conda-forge/r-skellam-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/r-skellam-feedstock)
-[![Windows](https://img.shields.io/appveyor/ci/conda-forge/r-skellam-feedstock/master.svg?label=Windows)](https://ci.appveyor.com/project/conda-forge/r-skellam-feedstock/branch/master)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/r-skellam-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/r-skellam-feedstock)
 
 Current release info
 ====================
