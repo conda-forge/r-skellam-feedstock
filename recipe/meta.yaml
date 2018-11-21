@@ -14,9 +14,9 @@ source:
   sha256: fd016494436ff6e877909e390440e595a5dc2def8ab42eb79883f5038b5ebc64
 
 build:
+  noarch: generic
   merge_build_host: True  # [win]
-  number: 1
-  skip: true  # [win32]
+  number: 1001
   rpaths:
     - lib/R/lib/
     - lib/
@@ -40,8 +40,7 @@ about:
   summary: 'Functions for the Skellam distribution, including: density (pmf), cdf, quantiles
     and regression.'
   license_family: GPL3
-  license_file: '{{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-3'  # [unix]
-  license_file: '{{ environ["PREFIX"] }}\R\share\licenses\GPL-3'  # [win]
+  license_file: '{{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-3'
 
 extra:
   recipe-maintainers:
