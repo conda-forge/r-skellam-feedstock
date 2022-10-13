@@ -3,7 +3,7 @@ About r-skellam
 
 Home: http://r-forge.r-project.org/projects/healthqueues/
 
-Package license: GPL (>= 2)
+Package license: GPL-2.0-or-later
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-skellam-feedstock/blob/main/LICENSE.txt)
 
