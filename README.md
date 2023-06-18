@@ -1,11 +1,11 @@
-About r-skellam
-===============
+About r-skellam-feedstock
+=========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-skellam-feedstock/blob/main/LICENSE.txt)
 
 Home: http://r-forge.r-project.org/projects/healthqueues/
 
 Package license: GPL-2.0-or-later
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-skellam-feedstock/blob/main/LICENSE.txt)
 
 Summary: Functions for the Skellam distribution, including: density (pmf), cdf, quantiles and regression.
 
