@@ -1,4 +1,4 @@
-{% set version = "0.2.3" %}
+{% set version = "0.2.4" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,10 +9,10 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/skellam_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/skellam/skellam_{{ version }}.tar.gz
-  sha256: 4d62b53fb0e25603e59836587879c48c5982bb94b4b387cdfdf5ec048ed1b542
+  sha256: e1788889f4989e2a3a605b919a4e5a117e7b657af715488715b69a81f3e3dd83
 
 build:
-  number: 1
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
